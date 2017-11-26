@@ -1,0 +1,50 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="project.js"></script>
+  <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+    <div class="info">
+      <a id="article_link" href="" target="_blank"><p class="article">Article</p></a><br>
+      <p class="number">Flight Number:</p>
+      <p class="flight_number" id='flight_number'></p><br>
+      <p class="year">Launch Year:</p>
+      <p class="launch_year" id='launch_year'></p><br>
+      <p class="success">Launch Success:</p>
+      <p class="launch_success" id="launch_success"></p><br>
+      <img id="image" width="300" height="300" src=""></p>
+    </div>
+    <iframe id="video" width="500" height="350" src="" frameboarder="o" allowfullscreen></iframe>
+
+    <a href="#" class="modal-trigger" data-modal="modal-name">Additional information</a> <!-- Trigger Modal. -->
+
+<!-- Modal -->
+<div class="modal" id="modal-name">
+  <div class="modal-sandbox"></div>
+  <div class="modal-box">
+    <div class="modal-header">
+      <div class="close-modal">&#10006;</div> 
+      <h1>SPACE-X FLIGHT</h1>
+    </div>
+    <div class="modal-body">
+      <p class="details"><span>Details:</span></p>
+      <p id='details'></p>
+      <p class="id inline"><span>Rocket ID:</span></p>
+      <p class="rocket_id inline" id="rocket_id"></p><br>
+      <p class="name inline"><span>Rocket Name:</span></p>
+      <p class="inline" id="rocket_name"></p><br>
+      <p class="type inline"><span>Rocket Type:</span></p>
+      <p class="inline" id="rocket_type"></p><br>
+      
+
+      
+      <button class="close-modal">Close!</button>
+    </div>
+  </div>
+</div>
+
+  
+</body>
